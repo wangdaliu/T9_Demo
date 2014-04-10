@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+	<LinearLayout
+			android:id="@+id/search"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+		<EditText
+				android:id="@+id/input"
+				android:textColor="@color/white"
+				android:gravity="bottom|center"
+				android:layout_gravity="center_horizontal"
+				android:background="@color/transparent"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:singleLine="true"
+				android:clickable="false"
+				android:focusable="false"
+				android:textSize="36sp"
+				android:textCursorDrawable="@null">
+		</EditText>
+		<ImageView android:id="@+id/key_backspace"
+		           android:src="@drawable/key_backspace_selector"
+		           android:layout_width="wrap_content"
+		           android:layout_height="match_parent"
+		           android:background="@null"
+		           android:layout_marginRight="10dp"
+		           android:visibility="gone"
+		           android:soundEffectsEnabled="false"/>
+	</LinearLayout>
+
+
+	<com.snail.t9.DialpadLayout
+			android:id="@+id/dialpad_layout"
+			android:layout_width="match_parent"
+			android:layout_height="260dp"
+			android:layout_alignParentBottom="true">
+	</com.snail.t9.DialpadLayout>
+	<ListView
+			android:id="@+id/search_list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/search"
+			android:layout_above="@id/dialpad_layout">
+	</ListView>
+
+
+</RelativeLayout>

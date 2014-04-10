@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="270dp">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	              android:layout_marginBottom="1dp"
+	              android:layout_weight="1.0">
+		<com.snail.t9.DialpadImageButton android:id="@+id/one"
+		        android:background="@drawable/calllog_pad_1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/two"
+		        android:background="@drawable/calllog_pad_2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/three"
+		        android:background="@drawable/calllog_pad_3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	              android:layout_marginBottom="1dp"
+	              android:layout_weight="1.0">
+		<com.snail.t9.DialpadImageButton android:id="@+id/four"
+		        android:background="@drawable/calllog_pad_4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/five"
+		        android:background="@drawable/calllog_pad_5"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false" android:paddingRight="1dp"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/six"
+		        android:background="@drawable/calllog_pad_6"
+		        android:layout_height="fill_parent"
+		        android:layout_width="wrap_content"
+		        android:src="@drawable/calllog_pad_6" android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	              android:layout_marginBottom="1dp"
+	              android:layout_weight="1.0">
+		<com.snail.t9.DialpadImageButton android:id="@+id/seven"
+		        android:background="@drawable/calllog_pad_7"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/eight"
+		        android:background="@drawable/calllog_pad_8"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false" android:paddingRight="1dp"/>
+		<com.snail.t9.DialpadImageButton android:id="@+id/nine"
+		        android:background="@drawable/calllog_pad_9"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false"/>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	              android:layout_marginBottom="1dp"
+	              android:layout_weight="1.0">
+		<com.snail.t9.DialpadImageButton android:id="@+id/zero"
+		        android:background="@drawable/calllog_pad_0"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:soundEffectsEnabled="false" android:paddingRight="1dp"/>
+	</LinearLayout>
+</LinearLayout>
