@@ -1,3 +1,3 @@
 #T9_Demo
 
-![T9_Demo](https://raw.githubusercontent.com/wangdaliu/T9_Demo/master/screenshot.png)
+![T9_Demo](https://github.com/wangdaliu/T9_Demo/blob/master/screenshot.jpg?raw=true)
